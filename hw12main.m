@@ -6,5 +6,7 @@ rangeInPQW = solveRangeInPerifocalFrame(semimajor_axis, eccentricity, true_anoma
 velocityInPQW = solveVelocityInPerifocalFrame(semimajor_axis, eccentricity, true_anomaly);
 
 format shortG
+disp('range[km]:');
 disp(rangeInPQW);
+disp('velocity[km/s]:');
 disp(velocityInPQW);
