@@ -2,7 +2,7 @@
 
 semimajor_axis = input('insert_semimajor_axis_in_km:');  % km
 eccentricity = input('insert_eccentricity_zero_to_one:');
-son_heung_min = input('insert_true_anomaly_to_degree:');  % radians
+son_heung_min = input('insert_true_anomaly_to_degree:');  % degree
 
 true_anomlay = son_heung_min*pi/180;
 
